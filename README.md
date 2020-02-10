@@ -35,6 +35,7 @@ The Vulkan Guide is designed to help developers get up and going with the world 
 - [VK_EXT_memory_priority](./chapters/extensions/VK_EXT_memory_priority.md)
 - [VK_EXT_shader_subgroup_ballot and VK_EXT_shader_subgroup_vote](./chapters/extensions/VK_EXT_shader_subgroup_xxx.md)
 - [VK_KHR_timeline_semaphore](https://www.khronos.org/blog/vulkan-timeline-semaphores)
+- [VK_KHR_depth_stencil_resolve](./chapters/extensions/VK_KHR_depth_stencil_resolve.md)
 - [Translation Layer Extensions](./chapters/extensions/translation_layer_extensions.md)
     - `VK_EXT_transform_feedback`
 - [External Memory and Sychronization](./chapters/extensions/VK_KHR_external_xxx.md)
