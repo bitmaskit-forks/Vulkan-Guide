@@ -1,4 +1,10 @@
-# VK_KHR_*2
+# Cleanup Extensions
+
+# More properties with VK_KHR_driver_properties
+
+The `VK_KHR_driver_properties` was added in Vulkan 1.2 core as it adds more information to query about each implementation. The [VkDriverId](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#VkDriverId) will registered vendor's ID of the implementation. The [VkConformanceVersion](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#VkConformanceVersion) displays which version of [the Vulkan Conformance Test Suite](../chapters/vulkan_cts.md) the implementation passed.
+
+# pNext Expansion
 
 There have been a few times where the Vulkan Working Group realized that some structs in the original 1.0 Vulkan spec were missing the ability to be extended properly due to missing `sType`/`pNext`.
 
@@ -18,7 +24,7 @@ All of these are very simple extensions and were promoted to core in their respe
 
 > `VK_KHR_get_physical_device_properties2` has additional functionality as it adds the ability to query feature support for extensions and newer Vulkan versions. It has become a requirement for most other Vulkan extensions because of this.
 
-# It is fine to not use these
+## It is fine to not use these
 
 Unless you need to make use of one of the extensions that rely on the above extensions, it is normally ok to use the original function/structs still.
 
