@@ -1,8 +1,14 @@
 # Cleanup Extensions
 
-# More properties with VK_KHR_driver_properties
+These are extension which are unofficially called "cleanup extension". The Vulkan Guide defines them as cleanup extensions due to their nature of only adding a small bit of functionality, usually one that requires little to no hardware support and mainly to make the API easier to use.
+
+# VK_KHR_driver_properties
 
 The `VK_KHR_driver_properties` was added in Vulkan 1.2 core as it adds more information to query about each implementation. The [VkDriverId](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#VkDriverId) will registered vendor's ID of the implementation. The [VkConformanceVersion](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#VkConformanceVersion) displays which version of [the Vulkan Conformance Test Suite](../chapters/vulkan_cts.md) the implementation passed.
+
+# VK_EXT_host_query_reset
+
+This extension was promoted in Vulkan 1.2 and allows an application to call `vkResetQueryPool` from the host instead of needing to setup logic to submit `vkCmdResetQueryPool` since this is mainly just a quick write to memory for most implementations and little overhead to calling.
 
 # pNext Expansion
 
