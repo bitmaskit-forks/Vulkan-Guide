@@ -37,6 +37,7 @@ The Vulkan Guide is designed to help developers get up and going with the world 
 - [VK_KHR_timeline_semaphore](https://www.khronos.org/blog/vulkan-timeline-semaphores)
 - [VK_KHR_depth_stencil_resolve](./chapters/extensions/VK_KHR_depth_stencil_resolve.md)
 - [VK_KHR_draw_indirect_count](./chapters/extensions/VK_KHR_draw_indirect_count.md)
+- [VK_KHR_image_format_list](./chapters/extensions/VK_KHR_image_format_list.md)
 - [Translation Layer Extensions](./chapters/extensions/translation_layer_extensions.md)
     - `VK_EXT_transform_feedback`
 - [External Memory and Sychronization](./chapters/extensions/VK_KHR_external_xxx.md)
