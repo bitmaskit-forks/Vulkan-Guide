@@ -10,6 +10,10 @@ The `VK_KHR_driver_properties` was added in Vulkan 1.2 core as it adds more info
 
 This extension was promoted in Vulkan 1.2 and allows an application to call `vkResetQueryPool` from the host instead of needing to setup logic to submit `vkCmdResetQueryPool` since this is mainly just a quick write to memory for most implementations and little overhead to calling.
 
+# VK_KHR_separate_depth_stencil_layouts
+
+This extension was promoted in Vulkan 1.2 and allows an application when using a depth/stencil format to do an image translation on each the depth and stencil separately. Starting in Vulkan 1.2 this functionality is required for all implementations.
+
 # pNext Expansion
 
 There have been a few times where the Vulkan Working Group realized that some structs in the original 1.0 Vulkan spec were missing the ability to be extended properly due to missing `sType`/`pNext`.

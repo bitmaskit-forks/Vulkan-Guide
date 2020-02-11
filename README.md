@@ -44,7 +44,7 @@ The Vulkan Guide is designed to help developers get up and going with the world 
 - [External Memory and Sychronization](./chapters/extensions/VK_KHR_external_xxx.md)
     - `VK_KHR_external_fence`, `VK_KHR_external_memory`, `VK_KHR_external_semaphore`, etc
 - [Cleanup Extensions](./chapters/extensions/VK_KHR_xxx2.md)
-    - `VK_KHR_driver_properties`, `VK_KHR_get_memory_requirements2`, `VK_KHR_get_physical_device_properties2`, `VK_KHR_bind_memory2`, `VK_KHR_create_renderpass2`, `VK_EXT_host_query_reset`
+    - `VK_KHR_driver_properties`, `VK_KHR_get_memory_requirements2`, `VK_KHR_get_physical_device_properties2`, `VK_KHR_bind_memory2`, `VK_KHR_create_renderpass2`, `VK_EXT_host_query_reset`, `VK_KHR_separate_depth_stencil_layouts`
 
 ----
 
