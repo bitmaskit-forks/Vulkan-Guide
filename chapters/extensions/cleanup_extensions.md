@@ -1,6 +1,6 @@
 # Cleanup Extensions
 
-These are extension which are unofficially called "cleanup extension". The Vulkan Guide defines them as cleanup extensions due to their nature of only adding a small bit of functionality, usually one that requires little to no hardware support and mainly to make the API easier to use.
+> These are extension which are unofficially called "cleanup extension". The Vulkan Guide defines them as cleanup extensions due to their nature of only adding a small bit of functionality, usually one that requires little to no hardware support and mainly to make the API easier to use.
 
 # VK_KHR_driver_properties
 
