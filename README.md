@@ -33,11 +33,11 @@ The Vulkan Guide is designed to help developers get up and going with the world 
 - [VK_EXT_inline_uniform_block](./chapters/extensions/VK_EXT_inline_uniform_block.md)
 - [VK_EXT_memory_budget](./chapters/extensions/VK_EXT_memory_budget.md)
 - [VK_EXT_memory_priority](./chapters/extensions/VK_EXT_memory_priority.md)
-- [VK_EXT_shader_subgroup_ballot and VK_EXT_shader_subgroup_vote](./chapters/extensions/VK_EXT_shader_subgroup_xxx.md)
 - [VK_KHR_timeline_semaphore](https://www.khronos.org/blog/vulkan-timeline-semaphores)
 - [VK_KHR_depth_stencil_resolve](./chapters/extensions/VK_KHR_depth_stencil_resolve.md)
 - [VK_KHR_draw_indirect_count](./chapters/extensions/VK_KHR_draw_indirect_count.md)
 - [VK_KHR_imageless_framebuffer](./chapters/extensions/VK_KHR_imageless_framebuffer.md)
+- [Shader Features](./chapters/extensions/shader_features.md)
 - [Image Creation](./chapters/extensions/image_creation.md)
     - `VK_KHR_image_format_list`, `VK_EXT_separate_stencil_usage`
 - [Translation Layer Extensions](./chapters/extensions/translation_layer_extensions.md)
@@ -46,6 +46,25 @@ The Vulkan Guide is designed to help developers get up and going with the world 
     - `VK_KHR_external_fence`, `VK_KHR_external_memory`, `VK_KHR_external_semaphore`, etc
 - [Cleanup Extensions](./chapters/extensions/VK_KHR_xxx2.md)
     - `VK_KHR_driver_properties`, `VK_KHR_get_memory_requirements2`, `VK_KHR_get_physical_device_properties2`, `VK_KHR_bind_memory2`, `VK_KHR_create_renderpass2`, `VK_EXT_host_query_reset`, `VK_KHR_separate_depth_stencil_layouts`
+
+VK_KHR_buffer_device_address
+VK_EXT_descriptor_indexing
+VK_EXT_sampler_filter_minmax
+
+VK_KHR_sampler_mirror_clamp_to_edge
+
+VK_KHR_dedicated_allocation
+VK_KHR_descriptor_update_template
+VK_KHR_device_group
+VK_KHR_device_group_creation
+VK_KHR_multiview
+VK_KHR_sampler_ycbcr_conversion
+VK_KHR_shader_draw_parameters
+
+VK_KHR_maintenance1
+VK_KHR_maintenance2
+VK_KHR_maintenance3
+
 
 ----
 
