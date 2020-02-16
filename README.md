@@ -42,6 +42,8 @@ The Vulkan Guide is designed to help developers get up and going with the world 
 - [VK_KHR_multiview](./chapters/extensions/VK_KHR_multiview.md)
 - [VK_KHR_sampler_ycbcr_conversion](./chapters/extensions/VK_KHR_sampler_ycbcr_conversion.md)
 - [VK_KHR_descriptor_update_template](./chapters/extensions/VK_KHR_descriptor_update_template.md)
+- [VK_KHR_buffer_device_address](./chapters/extensions/VK_KHR_buffer_device_address.md)
+- [VK_EXT_descriptor_indexing](./chapters/extensions/VK_EXT_descriptor_indexing.md)
 - [Shader Features](./chapters/extensions/shader_features.md)
 - [Image Creation](./chapters/extensions/image_creation.md)
     - `VK_KHR_image_format_list`, `VK_EXT_separate_stencil_usage`
@@ -50,15 +52,7 @@ The Vulkan Guide is designed to help developers get up and going with the world 
 - [External Memory and Sychronization](./chapters/extensions/VK_KHR_external_xxx.md)
     - `VK_KHR_external_fence`, `VK_KHR_external_memory`, `VK_KHR_external_semaphore`, etc
 - [Cleanup Extensions](./chapters/extensions/cleanup_extensions.md)
-    - `VK_KHR_driver_properties`, `VK_KHR_get_memory_requirements2`, `VK_KHR_get_physical_device_properties2`, `VK_KHR_bind_memory2`, `VK_KHR_create_renderpass2`, `VK_EXT_host_query_reset`, `VK_KHR_separate_depth_stencil_layouts`, `VK_KHR_maintenance1`, `VK_KHR_maintenance2`, `VK_KHR_maintenance3`
-
-VK_KHR_buffer_device_address
-VK_EXT_descriptor_indexing
-VK_EXT_sampler_filter_minmax
-
-VK_KHR_sampler_mirror_clamp_to_edge
-
-VK_KHR_dedicated_allocation
+    - `VK_KHR_driver_properties`, `VK_KHR_get_memory_requirements2`, `VK_KHR_get_physical_device_properties2`, `VK_KHR_bind_memory2`, `VK_KHR_create_renderpass2`, `VK_EXT_host_query_reset`, `VK_KHR_separate_depth_stencil_layouts`, `VK_KHR_dedicated_allocation`, `VK_EXT_sampler_filter_minmax`, `VK_KHR_sampler_mirror_clamp_to_edge`, `VK_KHR_maintenance1`, `VK_KHR_maintenance2`, `VK_KHR_maintenance3`
 
 ----
 
