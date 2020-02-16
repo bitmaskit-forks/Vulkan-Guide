@@ -14,6 +14,15 @@ This extension was promoted in Vulkan 1.2 and allows an application to call `vkR
 
 This extension was promoted in Vulkan 1.2 and allows an application when using a depth/stencil format to do an image translation on each the depth and stencil separately. Starting in Vulkan 1.2 this functionality is required for all implementations.
 
+# Maintenance Extensions
+
+The maintenance extensions add a collection of minor features that were intentionally left out or overlooked from the original Vulkan 1.0 release.
+
+Currently there are 3 maintenance extensions, all of which were bundled in Vulkan 1.1 as core. All the details for each are well defined in the extension appendix page.
+- [VK_KHR_maintenance1](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#VK_KHR_maintenance1)
+- [VK_KHR_maintenance2](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#VK_KHR_maintenance2)
+- [VK_KHR_maintenance3](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#VK_KHR_maintenance3)
+
 # pNext Expansion
 
 There have been a few times where the Vulkan Working Group realized that some structs in the original 1.0 Vulkan spec were missing the ability to be extended properly due to missing `sType`/`pNext`.
