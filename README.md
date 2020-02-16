@@ -41,6 +41,7 @@ The Vulkan Guide is designed to help developers get up and going with the world 
     - `VK_KHR_device_group`, `VK_KHR_device_group_creation`
 - [VK_KHR_multiview](./chapters/extensions/VK_KHR_multiview.md)
 - [VK_KHR_sampler_ycbcr_conversion](./chapters/extensions/VK_KHR_sampler_ycbcr_conversion.md)
+- [VK_KHR_descriptor_update_template](./chapters/extensions/VK_KHR_descriptor_update_template.md)
 - [Shader Features](./chapters/extensions/shader_features.md)
 - [Image Creation](./chapters/extensions/image_creation.md)
     - `VK_KHR_image_format_list`, `VK_EXT_separate_stencil_usage`
@@ -58,9 +59,6 @@ VK_EXT_sampler_filter_minmax
 VK_KHR_sampler_mirror_clamp_to_edge
 
 VK_KHR_dedicated_allocation
-VK_KHR_descriptor_update_template
-
-VK_KHR_shader_draw_parameters
 
 ----
 

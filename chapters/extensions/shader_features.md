@@ -184,6 +184,16 @@ TODO
 
 TODO
 
+## VK_KHR_shader_draw_parameters
+
+> Promoted to core in Vulkan 1.1
+>
+> [SPV_KHR_shader_draw_parameters](https://htmlpreview.github.io/?https://github.com/KhronosGroup/SPIRV-Registry/blob/master/extensions/KHR/SPV_KHR_shader_draw_parameters.html)
+>
+> [GLSL - GL_ARB_shader_draw_parameters](https://www.khronos.org/registry/OpenGL/extensions/ARB/ARB_shader_draw_parameters.txt)
+
+This extension adds the `BaseInstance`, `BaseVertex`, and `DrawIndex` built-in for vertex shaders. This was added as there are legitimate use cases for both inclusion and exclusion of the `BaseVertex` or `BaseInstance` parameters in `VertexId` and `InstanceId`, respectively.
+
 ## VK_EXT_shader_stencil_export
 
 TODO
@@ -195,6 +205,8 @@ This extension was created to help with matching the HLSL "discard" instruction 
 ## VK_KHR_shader_clock
 
 > [SPV_KHR_shader_clock](http://htmlpreview.github.io/?https://github.com/KhronosGroup/SPIRV-Registry/blob/master/extensions/KHR/SPV_KHR_shader_clock.html)
+>
+> [GLSL - GL_EXT_shader_realtime_clock](https://github.com/KhronosGroup/GLSL/blob/master/extensions/ext/GL_EXT_shader_realtime_clock.txt)
 
 This extension allows the shader to read the value of a monotonically incrementing counter provided by the implementation. This can be used as one possible method for debugging by tracking the order of when an invocation executes the instruction. It is worth noting that the addition of the `OpReadClockKHR` alters the shader one might want to debug. This means there is a certain level of accuracy representing the order as if the instructions did not exists.
 
@@ -208,4 +220,4 @@ For example, if an implemenation only has support for subgroups of size `4` and 
 
 `VK_EXT_shader_subgroup_ballot` and `VK_EXT_shader_subgroup_vote` were the original efforts to expose subgroups in Vulkan. If you are using Vulkan 1.1 or greater, there is no need to use these extensions and instead use the built in core API to query for subgroup support.
 
-For more information about the current subgroup support, there is a great [Khronos blog post](https://www.khronos.org/blog/vulkan-subgroup-tutorial) as well as a presentation from Vulkan Developer Day 2018 ([slides](https://www.khronos.org/assets/uploads/developers/library/2018-vulkan-devday/06-subgroups.pdf) and [video](https://www.youtube.com/watch?v=8MyqQLu_tW0)).
+For more information about the current subgroup support, there is a great [Khronos blog post](https://www.khronos.org/blog/vulkan-subgroup-tutorial) as well as a presentation from Vulkan Developer Day 2018 ([slides](https://www.khronos.org/assets/uploads/developers/library/2018-vulkan-devday/06-subgroups.pdf) and [video](https://www.youtube.com/watch?v=8MyqQLu_tW0)). GLSL support can be found in the [GL_KHR_shader_subgroup](https://github.com/KhronosGroup/GLSL/blob/master/extensions/khr/GL_KHR_shader_subgroup.txt) extension
