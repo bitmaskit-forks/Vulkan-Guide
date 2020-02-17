@@ -172,7 +172,7 @@ OpMemberDecorate 11(StorageBuffer) 3 Offset 28
 
 > Promoted to core in Vulkan 1.2
 
-TODO
+The [Vulkan Memory Model](https://www.khronos.org/registry/vulkan/specs/1.2-extensions/html/vkspec.html#memory-model) formally defines how to synchronize memory accesses to the same memory locations performed by multiple shader invocations and this extension exposes a boolean to let implementations to indicate support for it. This is important because with many things targeting Vulkan/SPIR-V it is important that any memory transfer operations an application might attempt to optimize doesn't break across implementations.
 
 # VK_KHR_shader_subgroup_extended_types
 
